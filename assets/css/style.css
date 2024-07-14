@@ -363,7 +363,6 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
@@ -842,7 +841,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/cta-bg.jpg") center center;
+
   background-size: cover;
   padding: 80px 0;
 }
@@ -975,7 +974,6 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: url("../img/team-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -1636,4 +1634,16 @@ section {
   text-align: center;
   font-size: 13px;
   color: #364146;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
